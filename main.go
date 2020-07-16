@@ -78,7 +78,7 @@ func main() {
 		case "info":
 			color = colors[Info]
 		case "warn":
-			color = colors[Info]
+			color = colors[Warn]
 			text = "<!here>"
 		case "danger":
 			color = colors[Danger]
