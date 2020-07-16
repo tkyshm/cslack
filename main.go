@@ -23,7 +23,7 @@ var (
 	webhookURL = sendFile.Flag("webhook-url", "webhook url").Required().Short('w').String()
 	channel    = sendFile.Flag("channel", "channel name (e.g. '#general')").Required().Short('c').String()
 
-	cslackVer = "v0.0.1"
+	cslackVer = "v0.0.2"
 )
 
 type AlertLevel int
